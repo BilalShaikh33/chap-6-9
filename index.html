@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
 
 
     <script>
         var a = +prompt("Enter a number")
-        // console.log("The value of a is :",a)
-        // console.log("The value of ++a is :",++a)
-        // console.log("Now the value of a is :",a)
-        // console.log("The value of a++ is :",a++)
-        // console.log("Now the value of a is :",a)
-        // console.log("The value of --a is :",--a)
-        // console.log("Now the value of a is :",a)
-        // console.log("The value of a-- is :",a--)
-        // console.log("Now the value of a is :",a)
+        console.log("The value of a is :",a)
+        console.log("The value of ++a is :",++a)
+        console.log("Now the value of a is :",a)
+        console.log("The value of a++ is :",a++)
+        console.log("Now the value of a is :",a)
+        console.log("The value of --a is :",--a)
+        console.log("Now the value of a is :",a)
+        console.log("The value of a-- is :",a--)
+        console.log("Now the value of a is :",a)
 
-        var a=2,b=1;
-        var result= --a - --b + ++b + b--;
-        console.log("a is ",a)
-        console.log("b is ",b)
-        console.log("Result is ",result)
+        var a = 2, b = 1;
+        var result = --a - --b + ++b + b--;
+        console.log("a is ", a)
+        console.log("b is ", b)
+        console.log("Result is", result)
 
         var name;
         name = prompt("Enter your name")
-        alert("Good Morning "+name)
+        alert("Good Morning " + name)
 
-        
-       var number = prompt("Enter you number")
-       var num2 = prompt("Enter how many times you want to multiply")
 
-       for(var i = 1 ; i <= num2; i++   ){
-        console.log( number, "X", i, "=",number*i   )
+        var number = prompt("Enter you number")
+        var num2 = prompt("Enter how many times you want to multiply")
 
-       }
+        for (var i = 1; i <= num2; i++) {
+            console.log(number, "X", i, "=", number * i)
 
-       
-        var maths, eng, phy, subjectTotal, obtMaths, obtEng, obtPhy, perMaths, perEng, perPhy, total, totalObt, totalPer;
-        subjectTotal=100;
-        maths= +prompt("Enter your maths marks: ")
-        eng= +prompt("Enter your english marks: ")
-        phy= +prompt("Enter your physics marks: ")
-        perMaths=(maths/subjectTotal)*100
-        perEng=(eng/subjectTotal)*100
-        perPhy=(phy/subjectTotal)*100
-        console.log("\n Maths | Total: ",subjectTotal," Obtained: ",maths," Percentage: ",perMaths)
-        console.log("\n English | Total: ",subjectTotal," Obtained: ",eng," Percentage: ",perEng)
-        console.log("\n Physics | Total: ",subjectTotal," Obtained: ",phy," Percentage: ",perPhy)
-        total=subjectTotal*3
-        totalObt=maths+eng+phy
-        totalPer= (totalObt/total)*100
-        console.log("Total marks: ",total," Total Obtained marks: ",totalObt," Total percentage: ",totalPer);
+        }
+
+
+        var maths, eng, phy, subTotal, obtMaths, obtEng, obtPhy, perMaths, perEng, perPhy, total, totalObt, totalPer;
+        subTotal = 100;
+        maths = +prompt("Enter your maths marks: ")
+        eng = +prompt("Enter your english marks: ")
+        phy = +prompt("Enter your physics marks: ")
+        perMaths = (maths / subTotal) * 100
+        perEng = (eng / subTotal) * 100
+        perPhy = (phy / subTotal) * 100
+        console.log("\n Maths | Total: ", subTotal, " Obtained: ", maths, " Percentage: ", perMaths)
+        console.log("\n English | Total: ", subTotal, " Obtained: ", eng, " Percentage: ", perEng)
+        console.log("\n Physics | Total: ", subTotal, " Obtained: ", phy, " Percentage: ", perPhy)
+        total = subTotal * 3
+        totalObt = maths + eng + phy
+        totalPer = (totalObt / total) * 100
+        console.log("Total marks: ", total, " Total Obtained marks: ", totalObt, " Total percentage: ", totalPer);
 
 
 
@@ -63,6 +65,7 @@
 
 
     </script>
-    
+
 </body>
+
 </html>
