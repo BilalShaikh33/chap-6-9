@@ -40,6 +40,23 @@
 
        }
 
+       
+        var maths, eng, phy, subjectTotal, obtMaths, obtEng, obtPhy, perMaths, perEng, perPhy, total, totalObt, totalPer;
+        subjectTotal=100;
+        maths= +prompt("Enter your maths marks: ")
+        eng= +prompt("Enter your english marks: ")
+        phy= +prompt("Enter your physics marks: ")
+        perMaths=(maths/subjectTotal)*100
+        perEng=(eng/subjectTotal)*100
+        perPhy=(phy/subjectTotal)*100
+        console.log("\n Maths | Total: ",subjectTotal," Obtained: ",maths," Percentage: ",perMaths)
+        console.log("\n English | Total: ",subjectTotal," Obtained: ",eng," Percentage: ",perEng)
+        console.log("\n Physics | Total: ",subjectTotal," Obtained: ",phy," Percentage: ",perPhy)
+        total=subjectTotal*3
+        totalObt=maths+eng+phy
+        totalPer= (totalObt/total)*100
+        console.log("Total marks: ",total," Total Obtained marks: ",totalObt," Total percentage: ",totalPer);
+
 
 
 
